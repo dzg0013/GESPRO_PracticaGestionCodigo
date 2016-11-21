@@ -104,7 +104,7 @@
 			<fileset dir="${rsc.main.data}" />
 		</copy>
 		<!-- Copia los LEEME.txt y licencia de la aplicación -->
-		<copy file="${rsc.main.dir}/LEEME.TXT" todir="${run.dir}" />
+		<copy file="${rsc.main.dir}/LEEME.txt" todir="${run.dir}" />
 
 		<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
 +		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
