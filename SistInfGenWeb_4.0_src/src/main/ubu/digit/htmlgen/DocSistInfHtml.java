@@ -74,19 +74,19 @@ public abstract class DocSistInfHtml {
      * URl de la ruta donde se encuentra el javascript de google analitics.
      */
     protected static final String WEB_JS_GOOGLEANALITICS_JS = DIROUT
-            + "\\js\\googleanalitics.js";
+            "/js/googleanalitics.js";
 
     /**
      * URl de la ruta donde se encuentra el javascript de addThis.
      */
     protected static final String WEB_JS_ADDTHIS_JS = DIROUT
-            + "\\js\\addThis.js";
+            + "/js/addThis.js";
 
     /**
      * URl de la ruta donde se encuentra el javascript de google translate.
      */
     protected static final String WEB_JS_GOOGLETRANSLATE_JS = DIROUT
-            + "\\js\\google_translate.js";
+            + "/js/google_translate.js";
 
     protected static final String STR_WARN_TABLE_ORDENABLE = "\t\t\t\t\t\t<ol class='lnorm'><li> Tabla ordenable por columnas. Haz click en las cabeceras de las columnas. </li></ol>";
 

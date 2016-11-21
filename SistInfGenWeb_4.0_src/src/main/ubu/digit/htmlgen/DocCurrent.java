@@ -50,7 +50,7 @@ public class DocCurrent extends DocSistInfHtml {
      * URL de la página a seguir.
      */
     private static final String NAMEFICH_ACTUALES = DIROUT
-            + "\\ActualesSist.html";
+            + "/ActualesSist.html";
 
     /**
      * Cabecera de la página actual.

@@ -114,7 +114,7 @@ public class GraphGenerator {
 
         try {
             ChartUtilities.saveChartAsPNG(new File(prop.getSetting("dirOut")
-                    + "\\images\\metrics\\" + title + ".png"), chart, 250, 60);
+                    + "/images/metrics/" + title + ".png"), chart, 250, 60);
         } catch (IOException e) {
             LOGGER.error("Error al crear el gráfico", e);
         }

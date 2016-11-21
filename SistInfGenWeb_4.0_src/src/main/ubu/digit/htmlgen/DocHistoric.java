@@ -57,7 +57,7 @@ public class DocHistoric extends DocSistInfHtml {
      * URL de la página a seguir.
      */
     protected static final String NAME_FICH_HISTORICO = DIROUT
-            + "\\HistoricoSist.html";
+            + "/HistoricoSist.html";
 
     /**
      * Cabecera de la página actual.

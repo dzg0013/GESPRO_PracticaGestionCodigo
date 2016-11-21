@@ -90,7 +90,7 @@ public class Generator {
 
             String s = prop.getSetting("dirOut");
             generatorRSS = new GeneratorRSS(s
-                    + "\\rss\\SistemasInformaticos.rss", "UTF-8");
+                    + "/rss/SistemasInformaticos.rss", "UTF-8");
             generatorRSS.generateChannelProperties();
         } catch (UnsupportedEncodingException e) {
             LOGGER.error(

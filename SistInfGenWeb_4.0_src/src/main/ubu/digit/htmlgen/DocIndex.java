@@ -46,7 +46,7 @@ public class DocIndex extends DocSistInfHtml {
     /**
      * URL de la página a seguir.
      */
-    private static final String NAME_FICH_INDEX = DIROUT + "\\index.html";
+    private static final String NAME_FICH_INDEX = DIROUT + "/index.html";
 
     /**
      * Submenús de la página
@@ -81,7 +81,7 @@ public class DocIndex extends DocSistInfHtml {
         outHtml.println("<!DOCTYPE html >");
         outHtml.println("<html lang=\"es\">");
         outHtml.println("\t<head>");
-        createHeaderHtml("Sistemas Inform&aacute;ticos");
+        createHeaderHtml("Trabajo Fin de Grado");
         outHtml.println("\t</head>");
         outHtml.println("\t<body>");
         outHtml.println("\t\t<div id='page-wrapper'>");

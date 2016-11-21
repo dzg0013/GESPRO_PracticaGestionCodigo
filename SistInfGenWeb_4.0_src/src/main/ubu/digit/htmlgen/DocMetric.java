@@ -53,7 +53,7 @@ public class DocMetric extends DocSistInfHtml {
      * URL de la página a seguir.
      */
     protected static final String NAME_FICH_METRIC = DIROUT
-            + "\\MetricSist.html";
+            + "/MetricSist.html";
 
     /**
      * Conjunto de valores visibles
@@ -269,9 +269,10 @@ public class DocMetric extends DocSistInfHtml {
 
         outHtml.println("\t\t\t\t\t\t</table>");
         outHtml.println("\t\t\t\t\t\t<div>");
-        createScript(DIROUT + "\\html\\videotutorialsourcemonitor.html",
+        createScript(DIROUT + "/html/videotutorialsourcemonitor.html",
                 "\t\t\t\t\t\t\t");
 
+        createScript(DIROUT + "/html/videotutorialcodeeval.html",
         createScript(DIROUT + "\\html\\videotutorialcodeeval.html",
                 "\t\t\t\t\t\t\t");
         outHtml.println("\t\t\t\t\t\t</div>");
